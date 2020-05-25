@@ -4,14 +4,70 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
+    <title>.:: Acholis ::.</title>
+
+        <!-- Icon css link -->
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/icofont.css" rel="stylesheet">
+        
+        <!-- Bootstrap -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Rev slider css -->
+        <link href="assets/vendors/revolution/css/settings.css" rel="stylesheet">
+        <link href="assets/vendors/revolution/css/layers.css" rel="stylesheet">
+        <link href="assets/vendors/revolution/css/navigation.css" rel="stylesheet">
+        <link href="assets/vendors/animate-css/animate.css" rel="stylesheet">
+        
+        <!-- Extra plugin css -->
+        <link href="assets/vendors/magnific-popup/magnific-popup.css" rel="stylesheet">
+        <link href="assets/vendors/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
+        
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="120">
+
+    <div id="preloader">
+      <div id="preloader_spinner">
+        <div class="pre_inner">
+          <div class="dot dot-1"></div>
+          <div class="dot dot-2"></div>
+          <div class="dot dot-3"></div>
+        </div>
+      </div>
+    </div>
+    
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery-2.2.4.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Rev slider js -->
+    <script src="assets/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <!-- Extra Plugin -->
+    <script src="assets/vendors/parallax/jquery.parallax-scroll.js"></script>
+    <script src="assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/counterup/waypoints.min.js"></script>
+    <script src="assets/vendors/counterup/jquery.counterup.min.js"></script>
+    <script src="assets/vendors/flexslider/flex-slider.js"></script>
+    <script src="assets/vendors/flexslider/mixitup.js"></script>
+    <script src="assets/vendors/swiper/js/swiper.min.js"></script>
+    <script src="assets/vendors/flipster-slider/jquery.flipster.min.js"></script>
+    <script src="assets/vendors/nice-selector/jquery.nice-select.min.js"></script>
+    
+    <script src="assets/js/theme.js"></script>
   </body>
 </html>
