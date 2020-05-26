@@ -218,6 +218,14 @@
         </section>
         <!--================End MacBook Mockup Area =================-->
 
+        <div style="margin: 200px 0">
+            <div class="row justify-content-center" style="margin: 0">
+                <div class="col-md-4 col-sm-12 mb-2"><img src="assets/img/works/jze.png" class="img-fluid img-thumbnail" ></div>
+                <div class="col-md-4 col-sm-12 mb-2"><img src="assets/img/works/helpcash.png" class="img-fluid img-thumbnail" ></div>
+                <div class="col-md-4 col-sm-12 mb-2"><img src="assets/img/works/qshop.png" class="img-fluid img-thumbnail" ></div>
+            </div>
+        </div>
+        
         <!--================Footer Area =================-->
         <footer class="footer_area" id="contact">
 
@@ -317,3 +325,9 @@
         name: 'Home'
     }
 </script>
+
+<style>
+    .mb-2{
+        margin-bottom: 30px;
+    }
+</style>
